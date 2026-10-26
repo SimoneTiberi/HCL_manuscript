@@ -9,8 +9,10 @@ This repository has two folders:
 
 The three "txi_....RData" files have transcript-level counts, and can be aggregated as follows in R:
 
-```load("scripts/RData/txi_abundance.RData")
+```
+load("scripts/RData/txi_abundance.RData")
 load("scripts/RData/txi_counts.RData")
 load("scripts/RData/txi_len.RData")
 txi$counts = txi_counts
-txi$length = txi_len ```
+txi$length = txi_len
+```
