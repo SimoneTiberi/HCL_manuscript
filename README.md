@@ -6,6 +6,7 @@ This repository has two folders:
 - Counts, which has the count matrices (after QC, trimming and alignment with kallisto - as in scripts 1, 2 and 3 from Scripts folder).
 
 "data_Filippo.RData" has gene-level counts.
+
 The three "txi_....RData" files have transcript-level counts, and can be aggregated as follows in R:
 
 ```load("scripts/RData/txi_abundance.RData")
