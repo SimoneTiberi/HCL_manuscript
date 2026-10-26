@@ -2,7 +2,7 @@
 Scripts and data from the manuscript entitled "Multiparametric profiling of circulating extracellular vesicles supports their potential as liquid-biopsy biomarkers in classic Hairy Cell Leukemia".
 
 This repository has two folders:
-- Scripts, that contains the scripts for running all the analyses;
+- Scripts, that contains the scripts for running all the analyses (sorted from 1 to 14);
 - Counts, which has the count matrices (after QC, trimming and alignment with kallisto).
 
 "data_Filippo.RData" has gene-level counts.
