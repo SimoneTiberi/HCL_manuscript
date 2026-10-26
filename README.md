@@ -3,7 +3,7 @@ Scripts and data from the manuscript entitled "Multiparametric profiling of circ
 
 This repository has two folders:
 - Scripts, that contains the scripts for running all the analyses (sorted from 1 to 14);
-- Counts, which has the count matrices (after QC, trimming and alignment with kallisto).
+- Counts, which has the count matrices (after QC, trimming and alignment with kallisto - as in scripts 1, 2 and 3 from Scripts folder).
 
 "data_Filippo.RData" has gene-level counts.
 The three "txi_....RData" files have transcript-level counts, and can be aggregated as follows in R:
